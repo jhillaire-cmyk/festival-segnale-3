@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Info e luoghi — Segnale</title>
- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,6 +28,12 @@
       <h1 id="titolo-info">Tre sedi, un percorso.</h1>
       <p class="lead">Scopri gli spazi e trova il tuo prossimo appuntamento.</p>
       <p class="reading-text">In questo progetto didattico, gli spazi immaginari di Segnale sono associati a tre sedi reali del Politecnico di Torino. Fotografie, indirizzi e mappa ti aiutano a riconoscerle e localizzarle.</p>
+      
+      <!-- Conteneur Météo -->
+      <div id="meteo-box" style="margin-top: 2rem; padding: 1.5rem; background-color: #f4f4f4; border-radius: 8px;">
+        <p>Caricamento meteo...</p>
+      </div>
+
     </section>
     <section class="content-section">
       <p class="eyebrow">Scopri le sedi</p>
@@ -93,5 +99,6 @@
   <footer class="site-footer"><div class="container"><p>Segnale · Progetto didattico · Festival immaginario</p></div></footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.js"></script>
   <script src="galleria.js"></script>
+  <script src="info.js"></script>
 </body>
 </html>
